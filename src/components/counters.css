@@ -1,0 +1,27 @@
+@keyframes thumbsDown {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  80% {
+    transform: rotate(200deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes thumbsUp {
+  0% {
+    transform: rotate(180deg)
+  }
+
+  80% {
+    transform: rotate(370deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
