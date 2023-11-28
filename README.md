@@ -1,3 +1,6 @@
+### Purpose
+Simple app designed to guilt myself into being less lazy and coding more. Increment counter daily. GLHF
+
 ## Getting Started
 
 Install packages & run the project
