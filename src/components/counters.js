@@ -68,7 +68,7 @@ export default function Counters() {
       <div className="thumbs text-4xl text-center" id="thumbs">
         👍
       </div>
-      <div className="flex flex-col md:flex-row justify-evenly items-center mt-5">
+      <div className="flex flex-col md:flex-row justify-evenly items-center mt-5 mb-10">
         <div className="md:mb-0 xs:mb-20">
           <Counter isWinsCounter={false} counterValue={storedLosses} changeValue={changeLosses} />
         </div>
