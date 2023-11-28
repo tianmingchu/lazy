@@ -7,7 +7,10 @@ import Image from "next/image"
 export default function Counter({ isWinsCounter, counterValue, changeValue }) {
   const playHoverSound = () => {
     var audio = document.getElementById("hover")
-    if (audio) audio.play()
+    if (audio) {
+      audio.muted = false
+      audio.play()
+    }
   }
 
   return (
@@ -37,7 +40,7 @@ export default function Counter({ isWinsCounter, counterValue, changeValue }) {
         </button>
       </div>
 
-      <audio id="hover">
+      <audio id="hover" muted={true}>
         <source src={hover} type="audio/mpeg" />
       </audio>
     </div>
