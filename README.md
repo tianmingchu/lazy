@@ -3,6 +3,10 @@ Simple app designed to guilt myself into being less lazy and coding more. Increm
 
 ## Getting Started
 
+Visit https://lazy-counter.vercel.app/
+
+or
+
 Install packages & run the project
 
 ```bash
